@@ -1,0 +1,386 @@
+<resources>
+    <!-- String For Application Name [CHAR LIMIT=20] -->
+    <string name="app_name">InventoryApp</string>
+    <!-- String For Navigation open drawer [CHAR LIMIT=20] -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <!-- String For Navigation close drawer [CHAR LIMIT=20] -->
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- String For Navigation title drawer [CHAR LIMIT=20] -->
+    <!-- String For Author contact drawer [CHAR LIMIT=20] -->
+    <!-- String For Navigation header drawer [CHAR LIMIT=20] -->
+    <string name="nav_header_desc">Navigation header</string>
+    <!-- String For Settings [CHAR LIMIT=20] -->
+    <string name="action_settings">Settings</string>
+    <!-- String For Add to Inventory drawer [CHAR LIMIT=20] -->
+    <string name="add_to_inventory">Add to Inventory</string>
+    <!-- String For Show Inventory drawer [CHAR LIMIT=20] -->
+    <string name="show_inventory">Show Inventory</string>
+    <!-- String For Query Inventory drawer [CHAR LIMIT=20] -->
+    <string name="query_inventory">Query Inventory</string>
+    <!-- String For Settings drawer [CHAR LIMIT=20] -->
+    <string name="settings">Settings</string>
+    <!-- String For Backup to Cloud [CHAR LIMIT=20] -->
+    <string name="backup_to_cloud">Backup to Cloud</string>
+    <!-- Database directory [CHAR LIMIT=20] -->
+    <string name="share">Share</string>
+    <!-- Database directory [CHAR LIMIT=20] -->
+    <string name="database_dir">/databases/</string>
+    <!--Error message [CHAR LIMIT=20] -->
+    <string name="error_add_product_name">Please enter product name.</string>
+    <!--Error message [CHAR LIMIT=20] -->
+    <string name="error_add_product_quantity">Please enter product quantity.</string>
+    <!--Error message [CHAR LIMIT=20] -->
+    <string name="error_add_product_price">Please enter product price.</string>
+    <!--Error message [CHAR LIMIT=20] -->
+    <string name="error_add_product_supplier_name">Please enter supplier name.</string>
+    <!--Error message [CHAR LIMIT=20] -->
+    <string name="error_add_product_supplier_contact">Please enter supplier contact.</string>
+    <!--Error message [CHAR LIMIT=20] -->
+    <string name="error_add_product_discount">Please enter product discount.</string>
+    <!--Error message [CHAR LIMIT=20] -->
+    <string name="error_add_product_note">Please enter product note.</string>
+    <!-- Message [CHAR LIMIT=20] -->
+    <string name="add_stored_new_record">Added new record to database</string>
+    <!-- Edit text for Product name [CHAR LIMIT=20] -->
+    <string name="product_name_edit">Enter inventory name…</string>
+    <!-- Edit text for Product quantity [CHAR LIMIT=20] -->
+    <string name="product_quantity_edit">Enter quantity…</string>
+    <!-- Edit text for Product Price [CHAR LIMIT=20] -->
+    <string name="product_price_edit">Enter price…</string>
+    <!-- Edit text for Product Supplier name [CHAR LIMIT=20] -->
+    <string name="product_supplier_name_edit">Enter supplier name…</string>
+    <!-- Edit text for Product Supplier contact [CHAR LIMIT=20] -->
+    <string name="product_supplier_contact_edit">Enter supplier contact…</string>
+    <!-- Edit text for Product discount [CHAR LIMIT=20] -->
+    <string name="product_discount_edit">Enter discount…</string>
+    <!-- Edit text for Product description [CHAR LIMIT=20] -->
+    <string name="product_notes_edit">Enter notes…</string>
+    <!--Permission [CHAR LIMIT=20] -->
+    <!-- Image description [CHAR LIMIT=20] -->
+    <string name="list_image">List image</string>
+    <!-- Search field [CHAR LIMIT=20] -->
+    <!-- Search button [CHAR LIMIT=20] -->
+    <!-- Error Toast empty search [CHAR LIMIT=20] -->
+    <string name="search_table_query">Search is empty</string>
+    <!-- Search hint [CHAR LIMIT=20] -->
+    <string name="search_hint">Sql Search</string>
+    <!-- Search product [CHAR LIMIT=20] -->
+    <string name="search_product">Search product</string>
+    <!-- Inventory blank Fragment text [CHAR LIMIT=20] -->
+    <string name="welcome_fragment">Welcome to Inventory Application</string>
+    <!-- Inventory add activity [CHAR LIMIT=20] -->
+    <string name="select_image">Add Image</string>
+    <!-- Inventory add activity [CHAR LIMIT=20] -->
+    <string name="product_image_edit">Add product image</string>
+    <!-- Inventory add activity button [CHAR LIMIT=20] -->
+    <string name="add_new_entry">Add</string>
+    <!-- Inventory add activity button [CHAR LIMIT=20] -->
+    <string name="back_main">Go back</string>
+    <!-- Inventory add activity error [CHAR LIMIT=20] -->
+    <string name="error_image">Please add product image</string>
+    <!-- Inventory add activity error [CHAR LIMIT=20] -->
+    <string name="table_column_product_name">Product name</string>
+    <!-- Inventory add activity hint [CHAR LIMIT=20] -->
+    <string name="table_column_product_price">Price</string>
+    <!-- Inventory add activity hint [CHAR LIMIT=20] -->
+    <string name="table_column_product_quantity">Quantity</string>
+    <!-- Inventory add activity hint [CHAR LIMIT=20] -->
+    <string name="table_column_supp_name">Supplier name</string>
+    <!-- Inventory add activity hint [CHAR LIMIT=20] -->
+    <string name="table_column_product_discount">Discount</string>
+    <!-- Inventory add activity hint [CHAR LIMIT=20] -->
+    <string name="table_column_supp_contact">Contact</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="designer_bag_01">Design Bag Cube</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="designer_bag_skin_02">Designer bag snake</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="watches_u_boat_01">U-Boat elegance</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="watches_u_boat_buss_02">U-Boat bussniness</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="dress_01">Dress Shine</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="dress_02">Dress White Spirit</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="jeans_jacket_01">Jeans Jacket Mos</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="jeans_jacket_02">Jeans Jacket Nine</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="lightweight_hoodie_01">Hoddie Time</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="lightweight_hoodie_02">Hoodie Vans</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="lightweight_hoodie_03">Hoodie Times</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_01">T-shirt Skull</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_02">T-shirt Pilot</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_03">T-shirt Have</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_04">Shirt Line</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shoes_01">Design Shoes Cowb</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shoes_02">Shoes Jack</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shoes_design_03">Design Shoes Grid</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="sneakers_01">Sneakers Nike</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="necklace_01">Necklace Rosia</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="designer_bag_skin_02_desc">Description\nReal leather on the outside.\n
+        Size 23.5x23x12 cm. / 9.25x9.06x4.72 in.\nSnap closure with flap.\nCroc print on the outside.\n
+        Single handle, length approx. 30 cm / 11.81 in.\nAdjustable,\nremovable shoulder strap,\n
+        length approx. 110/130 cm - 43.31 / 51.18 in.\nMulti-function zip pocket on the inside.\n
+        Gold-colored metal elements.\n20% Cotton 80% Polyester.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="designer_bag_01_desc">Description\nAn iconic model set to be an elegant everyday
+        companion - the Cube is simply perfect any time of the day.\nReal leather on the outside.\n
+        Quilting on the bottom part.\nHook fastening.\nSize 34x24x10 cm / 13.39x9.45x3.94 in.\n
+        Hide handles with  length approx. 70 cm / 27.56 in.\n
+        Pale gold coloured silver elements.\nMulti-function pockets on the inside.\n100% Polyester.\n
+        100% Real leather</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_01_desc">Description\nCotton t-shirt.\nRound neck.\nShort sleeves.\n
+        Regular fit.\nLogo Skull on the front.\n100 %% Cotton.\nMachine wash 30°.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_02_desc">Description\nCotton t-shirt.\nRound neck.\nShort sleeves.\n
+        Regular fit.\nLogo pilot design on the front.\n100 %% Cotton.
+        \nMachine wash 30°.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_03_desc">Description\nCotton t-shirt.\nRound neck.\nShort sleeves.\n
+        Regular fit.\nLogo  Have on the front.\n100 %% Cotton.\nMachine wash 40°.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shirt_04_desc">Description\nCotton t-shirt.\nRound neck.\nLong sleeves.\n
+        Regular fit.\nLines on front and back.\n100 %% Cotton.\nMachine wash 30°.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="sneakers_01_desc">Description\nReal suede running shoe.\nRound toe.\n
+        Lace-up model.\nContrasting colour inserts.\nLogo  at the side.\nFabric insole and lining.\n
+        Rubber sole.\nUpper: 100% Real leather.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shoes_01_desc">Description\nReal style elegance shoe.\nRound toe.\nLace-up model.\n
+        Contrasting colour inserts.\nLogo  at the side.\nFabric insole and lining.\nRubber sole.\n
+        Upper: 100% Real leather.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shoes_02_desc">Description\nBusiness Jack shoe.\nRound toe.\nLace-up model.\n
+        Contrasting colour inserts.\nLogo  at the side.\nFabric insole and lining.\nRubber sole.\n
+        Upper: 100% Real leather.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="shoes_design_03_desc">Description\nBussness Grid shoe.\nOpen toe.\nLace-up model.\n
+        Black color with silver  caps  inserts.\nBlack grid.\nFabric insole and lining.\n
+        Rubber sole.\nUpper: 100% Real leather.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="dress_01_desc">Description\nDress with sequins.\nHigh neck.\nShort sleeves.\n
+        Regular fit.\nZip fastening at the back.\nDetails in a contrasting colour.\n100% Polyester.\n
+        Lining: 95% Polyester 5% Elastane.\nHand wash.\nPicture shows size S, measurements:\n
+        Total approx. 82 cm. / 32.2 in.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="dress_02_desc">Description\nLace dress.\nV-neck.\nSleeveless model with straps.\n
+        Slim fit.\nCorset detailing on neckline.\n50%% Polyline, 35%% Cotton, 15%% Viscose.\n
+        Lining: 93%% Polyester, 7%% Elastane.\nHand wash.\nModel wears size 40.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="jeans_jacket_01_desc">Description\nStretch cotton denim jacket.\nClassic lapel.\n
+        Long sleeves, approx. 66.6 cm.\nSlim fit.\nFront button fastening.\nBreast pockets.\n
+        Used effect.\nEagle embroidery on back.\n98%% Cotton, 2%% Elastane.\nMachine wash at 30°.\n
+        Model wears size S, measurements: Shoulder to hem approx. 61 cm.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="jeans_jacket_02_desc">Description\nDenim model for a trend-inspired, modern
+        approach to the country look.\nJacket with sheepskin-look collar and lining.\n
+        Cotton blend denim jacket.\nSheepskin-look collar.\nLong sleeves. approx. 70 cm. / 27.56 in.\n
+        Front fastening with buttons.\nRegular fit.\nStretch inserts on the cuffs and at the bottom.\n
+        99% Cotton 1% Polyamide.\nMachine wash 30°.\nPicture shows size M, measurements:
+        Total approx. 67 cm. / 26.38 in.\nShoulders approx. 45 cm. / 17.72 in.\nTrue to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="lightweight_hoodie_01_desc">Description\nCotton blend sweatshirt.\n
+        Round neck with hood.\nLong sleeves, approx. 67 cm. / 26.38 in.\nRegular fit.\n
+        Logo on the front.\n65% Polyester 35% Cotton.\nMachine wash 30°.\nPicture shows size M,
+        lengths: Total approx. 70 cm. / 27.56 in.\nShoulders approx. 43.5 cm. / 17.13 in.\n
+        True to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="lightweight_hoodie_03_desc">Description\n Cotton blend sweatshirt.\n
+        Round neck with hood.\n Long sleeves, approx. 67 cm. / 26.38 in.\nRegular fit.\n
+        Logo on the front.\n65% Polyester 35% Cotton.\nMachine wash 30°.\nPicture shows size M,
+        lengths: Total approx. 70 cm. / 27.56 in.\nShoulders approx. 43.5 cm. / 17.13 in.\n
+        True to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="lightweight_hoodie_02_desc">Description\nCotton blend sweatshirt.\n
+        Round neck with hood.\nLong sleeves, approx. 67 cm. / 26.38 in.\n Regular fit.\n
+        Logo on the back.\n65% Polyester 35% Cotton.\nMachine wash 30°.\nPicture shows size M,
+        lengths: Total approx. 70 cm. / 27.56 in.\nShoulders approx. 43.5 cm. / 17.13 in.\n
+        True to size.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="watches_u_boat_01_desc">Black version:\nDial colour: black.\nCase colour: black.\n
+        Strap colour: black.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="watches_u_boat_buss_02_desc">Business version:\nDial colour: steel.\n
+        Case colour: steel.\nStrap colour: steel.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="necklace_01_desc">Description\nRhodium-plated long necklace.\n
+        Pendant with multiple chains.\nAdjustable length: 41-46 cm.</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_designer_bag_01">Clothier Design Source</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_designer_bag_01">651 225 8025</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_designer_bag_skin_02">Joanna Design Source</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_designer_bag_skin_02">212 938 1183</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_watches_u_boat_01">U-boat</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_watches_u_boat_01">0044 (0)20 3510 0670</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_watches_u_boat_buss_02">044 (0)20 3510 0670</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_watches_u_boat_buss_02">U Boat</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_dress_01">Guess</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_dress_02">Guess</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_dress_01">00 800 4837 7387</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_dress_02">00 800 4837 7387</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_jeans_jacket_01">01 8401806</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_jeans_jacket_02">01 8401806</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_jeans_jacket_01">Jack &amp; Jones</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_jeans_jacket_02">Jack &amp; Jones</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_lightweight_hoodie_02">Vans</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_lightweight_hoodie_02">0971 4 325 6499</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_lightweight_hoodie_01">Time4Nutrition</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_lightweight_hoodie_03">Time4Nutrition</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_lightweight_hoodie_01">023 9223 1700</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_lightweight_hoodie_03">023 9223 1700</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_shirt_01">0835480708</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_shirt_01">The Ragamuffin</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_shirt_02">Open Arms</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_shirt_02">205 991 5711</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_shirt_03">415 664 2408</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_shirt_04">41
+        <!-- Database demo data [CHAR LIMIT=20] -->5 664 2408</string>
+    <string name="supplier_name_shirt_03">Tag studio</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_shirt_04">Tag studio</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_shoes_01">Victory Stitch Manufacturing</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_shoes_02">Victory Stitch Manufacturing</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_shoes_01">813 852 1984</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_shoes_02">813 852 1984</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_shoes_design_03">503 257 2905</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_shoes_design_03">Portland Garment Factory</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_name_sneakers_01">Nike</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_sneakers_01">1 503 671 6453</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="nsupplier_name_ecklace_01">Guess</string>
+    <!-- Database demo data [CHAR LIMIT=20] -->
+    <string name="supplier_contact_necklace_01">00 800 4837 7387</string>
+    <!-- Inventory Item Fragment button [CHAR LIMIT=20] -->
+    <string name="decrement_order_button">decrement_order_button</string>
+    <!-- Inventory Item Fragment button [CHAR LIMIT=20] -->
+    <string name="increment_order_button">increment_order_button</string>
+    <!-- Inventory Item Fragment button [CHAR LIMIT=20] -->
+    <string name="sell">Sell</string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="list_view_price_txt">Price: $ </string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="list_view_quantity_txt">Quantity: </string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="list_view_discount_txt">Discount: </string>
+    <!-- Inventory Item Fragment error [CHAR LIMIT=20] -->
+    <string name="error_decrement_quantity">Negative value not supported.</string>
+    <!-- Inventory Item Fragment error [CHAR LIMIT=20] -->
+    <string name="error_increment_quantity">No more stock. Please our sales contact.</string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="zero">0</string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="total">Total:</string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="coming_soon">Coming soon</string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="fog_image">Fog Image</string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="communicate">Communicate</string>
+    <!-- Inventory Item Fragment text [CHAR LIMIT=20] -->
+    <string name="send">Send</string>
+    <!-- Inventory logo title [CHAR LIMIT=20] -->
+    <string name="logo">Logo</string>
+    <!-- Inventory Title text Details Activity [CHAR LIMIT=20] -->
+    <string name="title_activity_inventory_detail">Details</string>
+    <!-- Inventory action add to database [CHAR LIMIT=20] -->
+    <string name="add_to_database">add_to_database</string>
+    <!-- Inventory action delete row from database [CHAR LIMIT=20] -->
+    <string name="delete_database_record">Delete database record.</string>
+    <!-- Inventory action order [CHAR LIMIT=20] -->
+    <string name="order_button">Order Button</string>
+    <!-- Inventory action add image [CHAR LIMIT=20] -->
+    <string name="product_image">Product image</string>
+    <!-- Inventory action add name [CHAR LIMIT=20] -->
+    <string name="_detail">Product name.</string>
+    <!-- Inventory toast delete row from database [CHAR LIMIT=20] -->
+    <string name="deleted_record">Deleted</string>
+    <!-- Inventory action edit data from row [CHAR LIMIT=20] -->
+    <string name="edit_data">Edit data.</string>
+    <!-- Inventory action add discount [CHAR LIMIT=20] -->
+    <string name="discount">Discount:</string>
+    <!-- Inventory view text [CHAR LIMIT=20] -->
+    <string name="_50">50</string>
+    <!-- Inventory quantity text [CHAR LIMIT=20] -->
+    <string name="quantity">Quantity:</string>
+    <!-- Inventory view text [CHAR LIMIT=20] -->
+    <string name="_55">55</string>
+    <!-- Inventory view text [CHAR LIMIT=20] -->
+    <string name="_200_00">200.00</string>
+    <!-- Inventory price text [CHAR LIMIT=20] -->
+    <string name="price">Price: $</string>
+    <!-- Inventory toast error increment button [CHAR LIMIT=20] -->
+    <string name="something_wrong">Something is wrong</string>
+    <!-- Inventory edit details button [CHAR LIMIT=20] -->
+    <string name="details_edit">Edit details</string>
+    <!-- Inventory title alert dialog delete [CHAR LIMIT=20] -->
+    <string name="delete_entry">Delete row entries.</string>
+    <!-- Inventory alert dialog delete bt [CHAR LIMIT=20] -->
+    <string name="delete">Delete row from table!</string>
+    <!-- Inventory alert dialog cancel deletion [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+    <!-- Inventory title alert dialog product description [CHAR LIMIT=20] -->
+    <string name="desc_title_dialog">Description</string>
+    <!-- Inventory alert dialog update data [CHAR LIMIT=20] -->
+    <string name="update">Update</string>
+    <!-- Inventory action add new entry [CHAR LIMIT=20] -->
+    <string name="add_new_entry_button">Add new entry</string>
+    <!-- Inventory no data message [CHAR LIMIT=20] -->
+    <string name="no_data_message">No Data\n\nIf is first run just type in search to refresh.\n\n
+        Otherwise\n\nPlease check spelling.</string>
+    <!-- Toast List Item Sale message [CHAR LIMIT=20] -->
+    <string name="sell_success">Sale is successful.</string>
+    <!-- Toast List Item Sale quantity message [CHAR LIMIT=20] -->
+    <string name="order_bt_message">Please add order quantity.</string>
+    <!-- Alert dialog button[CHAR LIMIT=20] -->
+    <string name="delete_btn">Delete</string>
+</resources>

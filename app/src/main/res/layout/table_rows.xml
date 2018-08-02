@@ -1,0 +1,77 @@
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/product_name_txt"
+        android:gravity="start|center_vertical"
+        android:padding="@dimen/table_padding"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorText" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_margin"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/product_price_txt"
+        android:gravity="end|center_vertical"
+        android:padding="@dimen/table_padding"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorText" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_margin"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/product_quantity_txt"
+        android:gravity="end|center_vertical"
+        android:padding="@dimen/table_padding"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorText" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_margin"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/product_supplier_name_txt"
+        android:gravity="start|center_vertical"
+        android:padding="@dimen/table_padding"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorText" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_margin"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/product_supplier_contact_txt"
+        android:gravity="start|center_vertical"
+        android:padding="@dimen/table_padding"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorText" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/view_margin"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/product_discount_txt"
+        android:gravity="end|center_vertical"
+        android:padding="@dimen/table_padding"
+        android:textAlignment="gravity"
+        android:textColor="@color/colorText" />
+</TableRow>

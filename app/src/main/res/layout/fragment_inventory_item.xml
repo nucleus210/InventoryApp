@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="255dp"
+    android:layout_margin="@dimen/main_padding"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/darkTransparent"
+        android:contentDescription="@string/fog_image" />
+
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_buttons_view"
+        android:contentDescription="@string/list_image"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_buttons_view"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkTransparent"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/list_product_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkTransparent"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/list_product_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkTransparent"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <TextView
+            android:id="@+id/list_product_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/darkTransparent"
+            android:textAppearance="?attr/textAppearanceListItem" />
+
+        <LinearLayout
+            android:id="@+id/bottom_buttons_view"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:padding="@dimen/small_padding"
+                android:text="@string/total"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <TextView
+                android:id="@+id/order_summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/main_margin"
+                android:layout_marginStart="@dimen/main_margin"
+                android:background="@color/darkTransparent"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:padding="@dimen/list_text_padding"
+                android:text="@string/zero"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <ImageButton
+                android:id="@+id/decrement_order_bt"
+                style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:background="@color/transparentButton"
+                android:contentDescription="@string/decrement_order_button"
+                android:elevation="@dimen/elevation"
+                android:src="@drawable/ic_keyboard_arrow_left_white_24dp" />
+
+            <TextView
+                android:id="@+id/order_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/main_margin"
+                android:layout_marginStart="@dimen/main_margin"
+                android:background="@color/darkTransparent"
+                android:elevation="@dimen/elevation"
+                android:gravity="center"
+                android:padding="@dimen/list_text_padding"
+                android:text="@string/zero"
+                android:textAppearance="?attr/textAppearanceListItem" />
+
+            <ImageButton
+                android:id="@+id/increment_order_bt"
+                style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:background="@color/transparentButton"
+                android:contentDescription="@string/increment_order_button"
+                android:elevation="@dimen/elevation"
+                android:src="@drawable/ic_keyboard_arrow_right_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/sale_bt"
+                style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon"
+                android:layout_width="66dp"
+                android:layout_height="match_parent"
+                android:background="@color/transparentButton"
+                android:contentDescription="@string/increment_order_button"
+                android:src="@drawable/ic_shopping_basket_white_24dp"
+                android:text="@string/sell"
+                android:textAppearance="?android:textAppearanceSmall"
+                android:textColor="@color/colorText" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

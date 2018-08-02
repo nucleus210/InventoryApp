@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#3D3E40</color>
+    <color name="colorPrimaryDark">#2B2C2D</color>
+    <color name="colorAccent">#dbe0e5</color>
+    <color name="floatButton">#8a8b8f</color>
+    <color name="alertDialog">#8a8b8f</color>
+    <color name="tabLayout">#5b5d60</color>
+    <color name="colorText">#dcdcdc</color>
+    <color name="transparentButton">#62232323</color>
+    <color name="transparentLayout">#d8232323</color>
+    <color name="darkTransparent">#d21e1e1e</color>
+    <color name="transparentFog" tools:keep="@color/transparentFog">#5a060606</color>
+    <color name="transparent">#01000000</color>
+    <color name="black_overlay">#66000000</color>
+</resources>

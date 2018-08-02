@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context=".InventoryDetailActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ScrollView
+        android:id="@+id/scroll_main"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_tool_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/detail_img_card_view"
+                android:layout_width="340dp"
+                android:layout_height="240dp"
+                android:layout_marginEnd="@dimen/main_margin"
+                app:cardBackgroundColor="@color/colorPrimaryDark"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/product_image_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/product_image"
+                    android:enabled="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/logo" />
+
+            </android.support.v7.widget.CardView>
+
+            <EditText
+                android:id="@+id/product_name_detail"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/detail_img_card_view"
+                android:autofillHints="auto"
+                android:enabled="false"
+                android:gravity="start|center_vertical"
+                android:hint="@string/_detail"
+                android:inputType="text"
+                android:text="@string/product_name_edit"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/price_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/product_price_detail"
+                android:layout_alignTop="@id/product_price_detail"
+                android:layout_below="@id/product_name_detail"
+                android:layout_toEndOf="@id/detail_img_card_view"
+                android:gravity="start|center_vertical"
+                android:text="@string/price"
+                android:textColor="@color/colorText" />
+
+            <EditText
+                android:id="@+id/product_price_detail"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_name_detail"
+                android:layout_toEndOf="@id/price_title"
+                android:autofillHints="auto"
+                android:enabled="false"
+                android:gravity="start|center_vertical"
+                android:hint="@string/product_price_edit"
+                android:inputType="numberDecimal"
+                android:text="@string/_200_00"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/supplier_name_detail"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_price_detail"
+                android:layout_toEndOf="@id/detail_img_card_view"
+                android:autofillHints="auto"
+                android:enabled="false"
+                android:gravity="start|center_vertical"
+                android:hint="@string/_detail"
+                android:inputType="text"
+                android:text="@string/product_supplier_name_edit"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/supplier_contact_detail"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/product_price_detail"
+                android:layout_toEndOf="@id/supplier_name_detail"
+                android:autofillHints="auto"
+                android:enabled="false"
+                android:gravity="start|center_vertical"
+                android:hint="@string/_detail"
+                android:inputType="phone"
+                android:text="@string/product_supplier_contact_edit"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+
+            <TextView
+                android:id="@+id/product_description_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/detail_img_card_view"
+                android:layout_marginTop="@dimen/main_margin"
+                android:background="@color/colorPrimaryDark"
+                android:enabled="false"
+                android:gravity="top"
+                android:text="@string/lightweight_hoodie_03_desc"
+                android:textAlignment="gravity"
+                android:textColor="@color/colorText" />
+
+            <TextView
+                android:id="@+id/discount_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/product_discount_detail"
+                android:layout_alignTop="@id/product_discount_detail"
+                android:layout_below="@id/supplier_contact_detail"
+                android:layout_toEndOf="@id/detail_img_card_view"
+                android:gravity="start|center_vertical"
+                android:text="@string/discount"
+                android:textAlignment="gravity"
+                android:textColor="@color/colorText" />
+
+            <EditText
+                android:id="@+id/product_discount_detail"
+                style="@style/Base.TextAppearance.AppCompat.Small"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/supplier_contact_detail"
+                android:layout_toEndOf="@id/discount_title"
+                android:autofillHints="auto"
+                android:enabled="false"
+                android:gravity="start|center_vertical"
+                android:hint="@string/_detail"
+                android:inputType="numberDecimal"
+                android:text="@string/_50"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/product_description_detail"
+                android:layout_marginBottom="@dimen/view_margin"
+                android:layout_marginTop="@dimen/view_margin"
+                android:layout_toEndOf="@id/detail_img_card_view"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="start|center_vertical"
+                    android:text="@string/quantity"
+                    android:textColor="@color/colorText" />
+
+                <EditText
+                    android:id="@+id/product_quantity_detail"
+                    style="@style/Base.TextAppearance.AppCompat.Small"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:autofillHints="auto"
+                    android:gravity="center|center_vertical"
+                    android:hint="@string/_detail"
+                    android:inputType="number"
+                    android:text="@string/_55"
+                    android:textColor="@color/colorText"
+                    android:textStyle="bold"
+                    tools:targetApi="o" />
+
+                <ImageButton
+                    android:id="@+id/decrement_order_bt_detail"
+                    style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparentButton"
+                    android:contentDescription="@string/decrement_order_button"
+                    android:elevation="@dimen/elevation"
+                    android:saveEnabled="false"
+                    android:src="@drawable/ic_remove_minus_white_24dp" />
+
+                <ImageButton
+                    android:id="@+id/increment_order_bt_detail"
+                    style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/transparentButton"
+                    android:contentDescription="@string/increment_order_button"
+                    android:elevation="@dimen/elevation"
+                    android:saveEnabled="false"
+                    android:src="@drawable/ic_add_plus_white_24dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/ic_edit_white_24dp"
+        android:tooltipText="@string/details_edit"
+        app:backgroundTint="@color/floatButton"
+        app:elevation="@dimen/main_margin"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_tool_bar"
+        app:layout_constraintEnd_toEndOf="@+id/scroll_main"
+        tools:targetApi="o" />
+
+    <include
+        android:id="@+id/bottom_tool_bar"
+        layout="@layout/details_bottom_toolbar"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

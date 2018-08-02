@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_main"
+    tools:context=".ui.AddInventoryToDb">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_above="@+id/linearLayout"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".ui.AddInventoryToDb">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/main_padding">
+
+            <ImageView
+                android:id="@+id/product_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:layout_marginTop="24dp"
+                android:contentDescription="@string/product_image_edit"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_add_a_photo_black_24dp"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/set_image_button"
+                style="@style/Widget.AppCompat.ButtonBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/select_image"
+                android:textAlignment="center"
+                android:textColor="@color/colorText" />
+
+            <EditText
+                android:id="@+id/product_name_edit_txt"
+                style="@style/userInputText"
+                android:autofillHints="auto"
+                android:hint="@string/product_name_edit"
+                android:inputType="text"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/product_quantity_edit_txt"
+                style="@style/userInputText"
+                android:autofillHints="auto"
+                android:hint="@string/product_quantity_edit"
+                android:inputType="number"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/product_price_edit_txt"
+                style="@style/userInputText"
+                android:autofillHints="auto"
+                android:hint="@string/product_price_edit"
+                android:inputType="numberDecimal"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/product_supp_name_edit_txt"
+                style="@style/userInputText"
+                android:autofillHints="auto"
+                android:hint="@string/product_supplier_name_edit"
+                android:inputType="textAutoComplete"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/product_supp_contact_edit_txt"
+                style="@style/userInputText"
+                android:autofillHints="auto"
+                android:hint="@string/product_supplier_contact_edit"
+                android:inputType="phone"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/product_discount_edit_txt"
+                style="@style/userInputText"
+                android:autofillHints="auto"
+                android:hint="@string/product_discount_edit"
+                android:inputType="numberDecimal"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/product_notes_edit_txt"
+                style="@style/userInputText"
+                android:autofillHints="auto"
+                android:hint="@string/product_notes_edit"
+                android:inputType="text"
+                android:scrollbarStyle="outsideOverlay"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                tools:targetApi="o" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+        <Button
+            android:id="@+id/add_db_btn"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/add_new_entry"
+            android:textColor="@color/colorText" />
+
+        <Button
+            android:id="@+id/add_back_btn"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back_main"
+            android:textColor="@color/colorText" />
+    </LinearLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.90" />
+</android.support.constraint.ConstraintLayout>
