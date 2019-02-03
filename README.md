@@ -40,3 +40,4 @@ Few words about project:
 
     --> Inventory Add Activity - where can be inserted new records to database.
 
+![alt text](https://image.ibb.co/kxFmAz/Inventory.png)
